@@ -192,6 +192,5 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
     define: {
       __APP_INFO__: JSON.stringify(__APP_INFO__),
     },
-    base: process.env.NODE_ENV === "production" ? "/vue-tgx/" : "/",
   };
 });
